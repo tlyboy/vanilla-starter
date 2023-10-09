@@ -1,5 +1,6 @@
 import path from 'node:path'
 import { defineConfig } from 'vite'
+import UnoCSS from 'unocss/vite'
 
 export default defineConfig({
   resolve: {
@@ -7,4 +8,7 @@ export default defineConfig({
       '~/': `${path.resolve(__dirname, 'src')}/`,
     },
   },
+  plugins: [
+    UnoCSS(),
+  ],
 })
