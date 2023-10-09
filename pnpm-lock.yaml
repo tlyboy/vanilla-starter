@@ -17,19 +17,19 @@ devDependencies:
     specifier: ^1.1.21
     version: 1.1.21
   '@unocss/eslint-plugin':
-    specifier: ^0.56.4
+    specifier: ^0.56.5
     version: 0.56.5(eslint@8.51.0)(typescript@5.2.2)
   eslint:
     specifier: ^8.51.0
     version: 8.51.0
   typescript:
-    specifier: ^5.0.2
+    specifier: ^5.2.2
     version: 5.2.2
   unocss:
     specifier: ^0.56.5
     version: 0.56.5(postcss@8.4.31)(vite@4.4.11)
   vite:
-    specifier: ^4.4.5
+    specifier: ^4.4.11
     version: 4.4.11(@types/node@20.8.3)
 
 packages:
