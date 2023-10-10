@@ -11,6 +11,9 @@ export default defineConfig({
           axios: [
             ['default', 'axios'],
           ],
+          nprogress: [
+            ['*', 'nProgress'],
+          ],
         },
       ],
       dirs: [
