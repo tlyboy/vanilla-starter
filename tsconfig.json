@@ -28,6 +28,7 @@
     "skipLibCheck": true
   },
   "include": [
-    "src"
+    "src",
+    "auto-imports.d.ts"
   ]
 }
