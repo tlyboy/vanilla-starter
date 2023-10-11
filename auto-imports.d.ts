@@ -7,6 +7,7 @@ export {}
 declare global {
   const axios: typeof import('axios')['default']
   const getUserInfo: typeof import('./src/api/user')['getUserInfo']
+  const isDark: typeof import('./src/utils/dark')['isDark']
   const nProgress: typeof import('nprogress')
   const request: typeof import('./src/utils/request')['default']
   const toggleDark: typeof import('./src/utils/dark')['toggleDark']

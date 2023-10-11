@@ -1,9 +1,9 @@
-const isDark = {
+export const isDark = {
   get value() {
     return document.documentElement.classList.contains('dark')
   },
-  set value(value: boolean) {
-    if (value) {
+  set value(v) {
+    if (v) {
       document.documentElement.classList.add('dark')
       localStorage.setItem('color-schema', 'dark')
     }
