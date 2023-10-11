@@ -9,4 +9,5 @@ declare global {
   const getUserInfo: typeof import('./src/api/user')['getUserInfo']
   const nProgress: typeof import('nprogress')
   const request: typeof import('./src/utils/request')['default']
+  const toggleDark: typeof import('./src/utils/dark')['toggleDark']
 }

@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
@@ -8,7 +8,29 @@
   </head>
   <body bg="brand-light dark:brand-dark" text="brand-dark dark:brand-light">
     <div id="app">
-      <main h-full flex="~ col" justify-center items-center></main>
+      <main h-full flex="~ col" justify-center items-center>
+        <div>
+          <p>
+            <a rel="noreferrer" href="https://github.com/tlyboy/vanilla-starter" target="_blank">
+              Vanilla Starter
+            </a>
+          </p>
+        </div>
+
+        <nav mt-6 inline-flex gap-2 text-xl>
+          <button id="toggle-dark" icon-btn>
+            <div i-carbon-sun dark:i-carbon-moon></div>
+          </button>
+
+          <a
+            i-carbon-logo-github icon-btn
+            rel="noreferrer"
+            href="https://github.com/tlyboy/vanilla-starter"
+            target="_blank"
+            title="GitHub"
+          ></a>
+        </nav>
+      </main>
     </div>
     <script>
       (function () {
