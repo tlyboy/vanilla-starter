@@ -3,14 +3,15 @@ export const isDark = {
     return document.documentElement.classList.contains('dark')
   },
   set value(v) {
-    if (v) {
-      document.documentElement.classList.add('dark')
-      localStorage.setItem('color-schema', 'dark')
-    }
-    else {
-      document.documentElement.classList.remove('dark')
-      localStorage.setItem('color-schema', 'light')
-    }
+    const modeVal = v ? 'dark' : 'light'
+    const modeSystemValue = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+
+    document.documentElement.classList.toggle('dark')
+
+    if (modeSystemValue === modeVal)
+      localStorage.setItem('color-schema', 'auto')
+    else
+      localStorage.setItem('color-schema', modeVal)
   },
 }
 
