@@ -19,6 +19,7 @@ export default defineConfig({
       dirs: [
         './src/utils',
         './src/api',
+        './src/composables',
       ],
     }),
     UnoCSS(),
