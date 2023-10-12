@@ -12,14 +12,13 @@ export default defineConfig({
             ['default', 'axios'],
           ],
           nprogress: [
-            ['*', 'nProgress'],
+            ['*', 'NProgress'],
           ],
         },
       ],
       dirs: [
         './src/utils',
         './src/api',
-        './src/composables',
       ],
     }),
     UnoCSS(),
