@@ -1,6 +1,6 @@
 # vanilla-starter
 
-🚀 Vanilla Starter
+🚀 Vanilla starter
 
 ## 使用说明
 
