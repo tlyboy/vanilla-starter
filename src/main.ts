@@ -3,7 +3,6 @@ import './assets/styles/main.css'
 import './assets/styles/nprogress.css'
 import 'uno.css'
 import nProgress from 'nprogress'
-import { toggleDark } from './utils/dark'
 
 nProgress.start()
 nProgress.done()
