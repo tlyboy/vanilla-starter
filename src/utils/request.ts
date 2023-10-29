@@ -1,5 +1,5 @@
-import { ofetch } from 'ofetch'
+import { type $Fetch, ofetch } from 'ofetch'
 
-const request = ofetch.create({})
+const request: $Fetch = ofetch.create({})
 
 export default request
