@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [
     AutoImport({
       dirs: [
-        './src/utils',
+        'src/utils',
       ],
     }),
     UnoCSS(),
