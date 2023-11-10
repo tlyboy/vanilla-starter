@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.0.0",
   "private": true,
-  "packageManager": "pnpm@8.9.0",
+  "packageManager": "pnpm@8.10.2",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -19,12 +19,12 @@
   "devDependencies": {
     "@antfu/eslint-config": "1.0.0-beta.21",
     "@iconify-json/carbon": "^1.1.21",
-    "@types/nprogress": "^0.2.1",
+    "@types/nprogress": "^0.2.3",
     "@unocss/eslint-plugin": "^0.56.5",
-    "eslint": "^8.51.0",
+    "eslint": "^8.53.0",
     "typescript": "^5.2.2",
     "unocss": "^0.56.5",
-    "unplugin-auto-import": "^0.16.6",
-    "vite": "^4.4.11"
+    "unplugin-auto-import": "^0.16.7",
+    "vite": "^4.5.0"
   }
 }
