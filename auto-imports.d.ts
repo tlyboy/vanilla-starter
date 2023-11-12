@@ -6,6 +6,5 @@
 export {}
 declare global {
   const isDark: typeof import('./src/utils/dark')['isDark']
-  const request: typeof import('./src/utils/request')['default']
   const toggleDark: typeof import('./src/utils/dark')['toggleDark']
 }
