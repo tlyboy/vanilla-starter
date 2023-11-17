@@ -5,11 +5,11 @@
   "private": true,
   "packageManager": "pnpm@8.10.5",
   "scripts": {
-    "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
+    "dev": "vite",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "preview": "vite preview"
   },
   "dependencies": {
     "@unocss/reset": "^0.57.4",
