@@ -27,6 +27,11 @@
     "isolatedModules": true,
     "skipLibCheck": true
   },
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ],
   "include": [
     "src",
     "auto-imports.d.ts"
