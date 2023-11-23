@@ -6,7 +6,7 @@ import nProgress from 'nprogress'
 nProgress.start()
 nProgress.done()
 
-document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
+document.querySelector<HTMLDivElement>('#app')!.innerHTML = /* html */`
   <main
     px-4 py-10
     text="center gray-700 dark:gray-200"
