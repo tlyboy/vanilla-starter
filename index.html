@@ -7,29 +7,7 @@
     <title>Vanilla starter</title>
   </head>
   <body>
-    <div id="app">
-      <main flex="~ col" h-full items-center justify-center>
-        <div>
-          <p>
-            🚀 Vanilla starter
-          </p>
-        </div>
-
-        <nav mt-6 inline-flex gap-2 text-xl>
-          <button id="toggle-dark" icon-btn>
-            <div i-carbon-sun dark:i-carbon-moon></div>
-          </button>
-
-          <a
-            i-carbon-logo-github icon-btn
-            rel="noreferrer"
-            href="https://github.com/tlyboy/vanilla-starter"
-            target="_blank"
-            title="GitHub"
-          ></a>
-        </nav>
-      </main>
-    </div>
+    <div id="app"></div>
     <script>
       (function () {
         const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches

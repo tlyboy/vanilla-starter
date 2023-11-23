@@ -5,17 +5,8 @@ body,
 }
 
 html.dark {
-  color-scheme: dark;
-}
-
-body {
-  background: #ecf0f1;
-  color: #121212;
-}
-
-.dark body {
   background: #121212;
-  color: #ecf0f1;
+  color-scheme: dark;
 }
 
 ::view-transition-old(root),
