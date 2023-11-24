@@ -16,7 +16,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = /* html */`
         🚀 Vanilla starter
       </p>
     </div>
-    <nav flex="~ gap-4" mt-6 justify-center text-xl>
+    <nav mt-6 flex justify-center gap-2 text-xl>
       <button id="toggle-dark" icon-btn title="切换深色模式">
         <div i-carbon-sun dark:i-carbon-moon></div>
       </button>
