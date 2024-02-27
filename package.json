@@ -1,32 +1,28 @@
 {
   "name": "vanilla-starter",
-  "type": "module",
   "version": "0.0.0",
   "private": true,
-  "packageManager": "pnpm@8.15.3",
+  "type": "module",
   "scripts": {
-    "build": "vite build",
+    "build": "tsc && vite build",
     "dev": "vite",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
     "preview": "vite preview"
   },
+  "devDependencies": {
+    "@egoist/tailwindcss-icons": "^1.7.4",
+    "@iconify-json/carbon": "^1.1.30",
+    "@types/node": "^20.11.20",
+    "@types/nprogress": "^0.2.3",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35",
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.11",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.1.4"
+  },
+  "packageManager": "pnpm@8.15.3",
   "dependencies": {
     "nprogress": "^0.2.0"
-  },
-  "devDependencies": {
-    "@antfu/eslint-config": "^2.6.4",
-    "@iconify-json/carbon": "^1.1.30",
-    "@types/node": "^20.11.19",
-    "@types/nprogress": "^0.2.3",
-    "@unocss/eslint-config": "^0.58.5",
-    "@unocss/eslint-plugin": "^0.58.5",
-    "eslint": "npm:eslint-ts-patch@8.56.0-0",
-    "eslint-plugin-format": "^0.1.0",
-    "eslint-ts-patch": "8.56.0-0",
-    "typescript": "^5.3.3",
-    "unocss": "^0.58.5",
-    "unplugin-auto-import": "^0.17.5",
-    "vite": "^5.1.3"
   }
 }

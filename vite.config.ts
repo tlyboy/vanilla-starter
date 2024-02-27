@@ -1,20 +1,12 @@
 import path from 'node:path'
 import { defineConfig } from 'vite'
-import AutoImport from 'unplugin-auto-import/vite'
-import UnoCSS from 'unocss/vite'
 
+// https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [
-    AutoImport({
-      dirs: [
-        'src/utils',
-      ],
-    }),
-    UnoCSS(),
-  ],
+  plugins: [],
   resolve: {
     alias: {
-      '~/': `${path.resolve(__dirname, 'src')}/`,
+      '@': path.resolve(__dirname, './src'),
     },
   },
 })

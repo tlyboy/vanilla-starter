@@ -1,34 +1,25 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
-    "jsx": "preserve",
-    "lib": [
-      "DOM",
-      "ESNext"
-    ],
+    "allowImportingTsExtensions": true,
     "baseUrl": ".",
+    "isolatedModules": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "module": "ESNext",
-    "moduleResolution": "Bundler",
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "noEmit": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
     "paths": {
-      "~/*": [
-        "src/*"
-      ]
+      "@/*": ["./src/*"]
     },
     "resolveJsonModule": true,
-    "types": [
-      "vite/client"
-    ],
-    "allowJs": true,
+    "skipLibCheck": true,
+    /* Linting */
     "strict": true,
-    "strictNullChecks": true,
-    "noUnusedLocals": true,
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "isolatedModules": true,
-    "skipLibCheck": true
+    "target": "ES2020",
+    "useDefineForClassFields": true
   },
-  "exclude": [
-    "dist",
-    "node_modules"
-  ]
+  "include": ["src"]
 }

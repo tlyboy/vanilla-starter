@@ -4,26 +4,27 @@ export const isDark = {
   },
   set value(v) {
     const modeVal = v ? 'dark' : 'light'
-    const systemValue
-      = window.matchMedia
-      && window.matchMedia('(prefers-color-scheme: dark)').matches
+    const systemValue =
+      window.matchMedia &&
+      window.matchMedia('(prefers-color-scheme: dark)').matches
         ? 'dark'
         : 'light'
 
     document.documentElement.classList.toggle('dark', v)
 
-    if (systemValue === modeVal)
+    if (systemValue === modeVal) {
       localStorage.setItem('color-schema', 'auto')
-    else
+    } else {
       localStorage.setItem('color-schema', modeVal)
+    }
   },
 }
 
 export function toggleDark(event: MouseEvent) {
-  const isAppearanceTransition
+  const isAppearanceTransition =
     // @ts-expect-error experimental API
-    = document.startViewTransition
-    && !window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    document.startViewTransition &&
+    !window.matchMedia('(prefers-reduced-motion: reduce)').matches
 
   if (!isAppearanceTransition) {
     isDark.value = !isDark.value

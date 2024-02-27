@@ -1,9 +1,31 @@
-import '@unocss/reset/tailwind.css'
-import 'uno.css'
 import './assets/styles/main.css'
 import nProgress from 'nprogress'
+import { setupToggleDark } from './toggleDark'
 
 nProgress.start()
 nProgress.done()
 
-document.querySelector<HTMLButtonElement>('#toggle-dark')!.addEventListener('click', toggleDark)
+document.querySelector<HTMLDivElement>('#app')!.innerHTML = /* HTML */ `
+  <main class="px-4 py-10 text-center text-gray-700 dark:text-gray-200">
+    <div>
+      <p>🚀 Vanilla starter</p>
+    </div>
+    <nav class="mt-6 flex justify-center gap-2 text-xl">
+      <button
+        id="toggle-dark"
+        class="icon-btn i-carbon-sun dark:i-carbon-moon"
+        title="切换深色模式"
+      ></button>
+
+      <a
+        class="icon-btn i-carbon-logo-github"
+        href="https://github.com/tlyboy/vanilla-starter"
+        target="_blank"
+        rel="noopener noreferrer"
+        title="GitHub"
+      ></a>
+    </nav>
+  </main>
+`
+
+setupToggleDark(document.querySelector('#toggle-dark')!)
