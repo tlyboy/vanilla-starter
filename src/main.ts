@@ -1,6 +1,5 @@
 import './assets/styles/main.css'
 import nProgress from 'nprogress'
-import { setupToggleDark } from './toggleDark'
 
 nProgress.start()
 nProgress.done()
