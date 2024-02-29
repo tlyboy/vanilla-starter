@@ -19,7 +19,8 @@
     /* Linting */
     "strict": true,
     "target": "ES2020",
+    "types": ["vite/client"],
     "useDefineForClassFields": true
   },
-  "include": ["src", "./auto-imports.d.ts"]
+  "include": ["src"]
 }
