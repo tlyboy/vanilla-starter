@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [
     AutoImport({
       dts: 'src/auto-imports.d.ts',
-      dirs: ['./src/setups', './src/utils'],
+      dirs: ['./src/utils', './src/setups'],
     }),
   ],
   resolve: {
