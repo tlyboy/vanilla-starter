@@ -11,7 +11,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = /* HTML */ `
     </div>
     <nav class="mt-6 flex justify-center gap-2 text-xl">
       <button
-        id="toggle-dark"
+        id="darker"
         class="icon-btn i-carbon-sun dark:i-carbon-moon"
         title="切换深色模式"
       ></button>
@@ -27,4 +27,4 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = /* HTML */ `
   </main>
 `
 
-setupToggleDark(document.querySelector('#toggle-dark')!)
+setupDarker(document.querySelector('#darker')!)

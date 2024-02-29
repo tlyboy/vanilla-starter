@@ -7,6 +7,6 @@ export {}
 declare global {
   const isDark: typeof import('./utils/dark')['isDark']
   const setupCounter: typeof import('./setups/count')['setupCounter']
-  const setupToggleDark: typeof import('./setups/toggleDark')['setupToggleDark']
+  const setupDarker: typeof import('./setups/dark')['setupDarker']
   const toggleDark: typeof import('./utils/dark')['toggleDark']
 }
