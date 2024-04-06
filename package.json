@@ -1,0 +1,32 @@
+{
+  "name": "vanilla-starter",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc && vite build",
+    "dev": "vite",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "nprogress": "^0.2.0"
+  },
+  "devDependencies": {
+    "@egoist/tailwindcss-icons": "^1.7.4",
+    "@iconify-json/carbon": "^1.1.31",
+    "@types/node": "^20.12.5",
+    "@types/nprogress": "^0.2.3",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.13",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.4.4",
+    "unplugin-auto-import": "^0.17.5",
+    "vite": "^5.2.8"
+  },
+  "packageManager": "pnpm@8.15.6",
+  "engines": {
+    "node": "20.x"
+  }
+}
