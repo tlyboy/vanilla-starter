@@ -13,14 +13,14 @@ importers:
         version: 0.2.0
     devDependencies:
       '@egoist/tailwindcss-icons':
-        specifier: ^1.7.4
-        version: 1.7.4(tailwindcss@3.4.3)
+        specifier: ^1.8.0
+        version: 1.8.0(tailwindcss@3.4.3)
       '@iconify-json/carbon':
-        specifier: ^1.1.31
-        version: 1.1.31
+        specifier: ^1.1.32
+        version: 1.1.32
       '@types/node':
-        specifier: ^20.12.7
-        version: 20.12.7
+        specifier: ^20.12.10
+        version: 20.12.10
       '@types/nprogress':
         specifier: ^0.2.3
         version: 0.2.3
@@ -46,8 +46,8 @@ importers:
         specifier: ^0.17.5
         version: 0.17.5(rollup@4.13.0)
       vite:
-        specifier: ^5.2.10
-        version: 5.2.10(@types/node@20.12.7)
+        specifier: ^5.2.11
+        version: 5.2.11(@types/node@20.12.10)
 
 packages:
 
@@ -61,8 +61,8 @@ packages:
   '@antfu/utils@0.7.7':
     resolution: {integrity: sha512-gFPqTG7otEJ8uP6wrhDv6mqwGWYZKNvAcCq6u9hOj0c+IKCEsY4L1oC9trPq2SaWIzAfHvqfBDxF591JkMf+kg==}
 
-  '@egoist/tailwindcss-icons@1.7.4':
-    resolution: {integrity: sha512-883qx0sqeNb8km7os0w8K6UYue88dbgTWwyEUwW74Bgz0H7t+m7PMIIEvSQ4JqHwA823Qd5ciz+NoTBWKaMYfg==}
+  '@egoist/tailwindcss-icons@1.8.0':
+    resolution: {integrity: sha512-75LfllKL2lq0sGH+wcpsn/sLtJ0kMkDWmcZTLAB76QLDTmfsFu4QHwZVbtCD2woGyKl9c8KvtOUW9JSjRqOVtA==}
     peerDependencies:
       tailwindcss: '*'
 
@@ -204,14 +204,14 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@iconify-json/carbon@1.1.31':
-    resolution: {integrity: sha512-CAvECFfiwGyZmlcuM2JLMRDEN3VsIEZv6lml7Xf+3giQ5oXloADm0b5wiVPFZmONKM5jXERmx+E7YSvAtFJIbw==}
+  '@iconify-json/carbon@1.1.32':
+    resolution: {integrity: sha512-9X8wVI7AmcnjTyOdDoCgyNwcFL9lb++nacDS2yLANTc27F4y9Q8pJIfUVsakR4KcGqSSBCyXwEmBDeopeTZFqA==}
 
   '@iconify/types@2.0.0':
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
 
-  '@iconify/utils@2.1.22':
-    resolution: {integrity: sha512-6UHVzTVXmvO8uS6xFF+L/QTSpTzA/JZxtgU+KYGFyDYMEObZ1bu/b5l+zNJjHy+0leWjHI+C0pXlzGvv3oXZMA==}
+  '@iconify/utils@2.1.23':
+    resolution: {integrity: sha512-YGNbHKM5tyDvdWZ92y2mIkrfvm5Fvhe6WJSkWu7vvOFhMtYDP0casZpoRz0XEHZCrYsR4stdGT3cZ52yp5qZdQ==}
 
   '@isaacs/cliui@8.0.2':
     resolution: {integrity: sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA==}
@@ -328,8 +328,8 @@ packages:
   '@types/estree@1.0.5':
     resolution: {integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==}
 
-  '@types/node@20.12.7':
-    resolution: {integrity: sha512-wq0cICSkRLVaf3UGLMGItu/PtdY7oaXaI/RVU+xliKVOtRna3PRY57ZDfztpDL0n11vfymMUnXv8QwYCO7L1wg==}
+  '@types/node@20.12.10':
+    resolution: {integrity: sha512-Eem5pH9pmWBHoGAT8Dr5fdc5rYA+4NAovdM4EktRPVAAiJhmWWfQrA0cFhAbOsQdSfIHjAud6YdkbL69+zSKjw==}
 
   '@types/nprogress@0.2.3':
     resolution: {integrity: sha512-k7kRA033QNtC+gLc4VPlfnue58CM1iQLgn1IMAU8VPHGOj7oIHPp9UlhedEnD/Gl8evoCjwkZjlBORtZ3JByUA==}
@@ -944,8 +944,8 @@ packages:
   util-deprecate@1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
 
-  vite@5.2.10:
-    resolution: {integrity: sha512-PAzgUZbP7msvQvqdSD+ErD5qGnSFiGOoWmV5yAKUEI0kdhjbH6nMWVyZQC/hSc4aXwc0oJ9aEdIiF9Oje0JFCw==}
+  vite@5.2.11:
+    resolution: {integrity: sha512-HndV31LWW05i1BLPMUCE1B9E9GFbOu1MbenhS58FuK6owSO5qHm7GiCotrNY1YE5rMeQSFBGmT5ZaLEjFizgiQ==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -1012,9 +1012,9 @@ snapshots:
 
   '@antfu/utils@0.7.7': {}
 
-  '@egoist/tailwindcss-icons@1.7.4(tailwindcss@3.4.3)':
+  '@egoist/tailwindcss-icons@1.8.0(tailwindcss@3.4.3)':
     dependencies:
-      '@iconify/utils': 2.1.22
+      '@iconify/utils': 2.1.23
       tailwindcss: 3.4.3
     transitivePeerDependencies:
       - supports-color
@@ -1088,13 +1088,13 @@ snapshots:
   '@esbuild/win32-x64@0.20.2':
     optional: true
 
-  '@iconify-json/carbon@1.1.31':
+  '@iconify-json/carbon@1.1.32':
     dependencies:
       '@iconify/types': 2.0.0
 
   '@iconify/types@2.0.0': {}
 
-  '@iconify/utils@2.1.22':
+  '@iconify/utils@2.1.23':
     dependencies:
       '@antfu/install-pkg': 0.1.1
       '@antfu/utils': 0.7.7
@@ -1196,7 +1196,7 @@ snapshots:
 
   '@types/estree@1.0.5': {}
 
-  '@types/node@20.12.7':
+  '@types/node@20.12.10':
     dependencies:
       undici-types: 5.26.5
 
@@ -1778,13 +1778,13 @@ snapshots:
 
   util-deprecate@1.0.2: {}
 
-  vite@5.2.10(@types/node@20.12.7):
+  vite@5.2.11(@types/node@20.12.10):
     dependencies:
       esbuild: 0.20.2
       postcss: 8.4.38
       rollup: 4.13.0
     optionalDependencies:
-      '@types/node': 20.12.7
+      '@types/node': 20.12.10
       fsevents: 2.3.3
 
   webpack-sources@3.2.3: {}
